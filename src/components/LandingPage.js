@@ -8,7 +8,7 @@ export default class LandingPage extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
                     <Cell col={12}>
-                        <img src="https://drive.google.com/uc?export=view&id=1JXOn65m0kG_zmKCKH_FoMsQKb4Glv0sY" alt="manju" className="manju-img" style={{height: '300px', margin: '20px'}}/>
+                        <img src="https://drive.google.com/uc?export=view&id=1JXOn65m0kG_zmKCKH_FoMsQKb4Glv0sY" alt="manju" className="manju-img" style={{paddingTop: '5em',}}/>
                         <div className="banner-text">
                             <h1>Full Stack Developer</h1>
                             <hr/>

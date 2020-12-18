@@ -4,18 +4,6 @@
   background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid {
-  background: #304352;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .avtar-img {
   height: 250px;
   padding-top: 5em;
@@ -101,12 +89,13 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
 
 .contact-grid p {
+  -font-family: 'Anton', sans-serif;
   font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
 }
 
 .contact-grid hr {
@@ -120,13 +109,30 @@
   padding-right: 2em;
 }
 
+/* Contact Page CSS End*/
+
+
+/* Landing Page */
+.landing-grid {
+  background: #304352;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .manju-img {
   border-radius: 100%;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   filter: grayscale(100%);
+  -padding-top: 5em;
 }
-/* Contact Page CSS End*/
+/* Landing Page End */
 
 /* Resume Page CSS*/
 .resume-right-col {
@@ -153,10 +159,12 @@
 }
 
 .about-div hr {
-  text-align: center;
+  border-top: 3px solid #833fb2;
 }
 .about-div p {
   font-size: 22px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
+  text-align: justify;
 }
+/*About Page End*/

@@ -17,34 +17,31 @@ export default class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{fontFamily: 'Anton', fontSize: '25px', color: 'blue'}}>
-                                        <i className="fa fa-phone-square" aria-hidden="true"style={{color: '#222a30'}}/>
+                                    <ListItemContent style={{fontFamily: 'Anton', fontSize: '25px'}}>
+                                        <i className="fa fa-phone-square" aria-hidden="true" style={{color: '#222a30'}}/>
                                         072-768-9251 
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontFamily: 'Anton', fontSize: '25px'}}>
-                                        <i className="fa fa-fax" aria-hidden="true"/>
+                                        <i className="fa fa-fax" aria-hidden="true" style={{color: '#222a30'}}/>
                                         072-768-9251 
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontFamily: 'Anton', fontSize: '25px'}}>
-                                        <i className="fa fa-envelope" aria-hidden="true"/>
+                                        <i className="fa fa-envelope" aria-hidden="true" style={{color: '#222a30'}}/>
                                         mann.arya@gmail.com 
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontFamily: 'Anton', fontSize: '25px'}}>
-                                        <i className="fa fa-skype" aria-hidden="true"/>
+                                        <i className="fa fa-skype" aria-hidden="true" style={{color: '#222a30'}}/>
                                         MySkypeID 
                                     </ListItemContent>
                                 </ListItem>
                             </List>
                         </div>
-
-                        
-
                     </Cell>
                 </Grid>
             </div>
