@@ -25,13 +25,8 @@ export default class LandingPage extends Component {
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
 
-                                {/* Free Code camp */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-free-code-camp" aria-hidden="true"/>
-                                </a>
-
                                 {/* YouTube */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://youtu.be/BhcvpGgSXc4" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-youtube-square" aria-hidden="true"/>
                                 </a>
                             </div>
