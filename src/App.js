@@ -15,7 +15,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="MyPortfolio">
             <Navigation>
                 <a href="https://manju-resume.netlify.app">Resume</a>
                 <Link to="/aboutme">About Me</Link>
